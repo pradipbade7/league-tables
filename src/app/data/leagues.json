@@ -1,0 +1,95 @@
+[
+  {
+    "id": "premier-league",
+    "name": "Premier League",
+    "country": "England",
+    "slug": "premier-league",
+    "apiCode": "PL",
+    "bgColor": "bg-gradient-to-br from-[#3D195B] to-[#d270e5]",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg",
+    "positions": {
+      "championsLeague": [1, 2, 3, 4, 5],
+      "europaLeague": [6],
+      "relegation": [18, 19, 20]
+    }
+  },
+  {
+    "id": "la-liga",
+    "name": "La Liga",
+    "country": "Spain",
+    "slug": "la-liga",
+    "apiCode": "PD",
+    "bgColor": "bg-gradient-to-br from-[#EA556A] to-[#BA0028]",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/LaLiga_EA_Sports_2023_Vertical_Logo.svg/1280px-LaLiga_EA_Sports_2023_Vertical_Logo.svg.png",
+    "positions": {
+      "championsLeague": [1, 2, 3, 4, 5],
+      "europaLeague": [6],
+      "conferenceLeague": [7],
+      "relegation": [18, 19, 20]
+    }
+  },
+  {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Germany",
+    "slug": "bundesliga",
+    "apiCode": "BL1",
+    "bgColor": "bg-gradient-to-br from-[#D20515] to-[#9E0010]",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg",
+    "positions": {
+      "championsLeague": [1, 2, 3, 4],
+      "europaLeague": [5],
+      "conferenceLeague": [6],
+      "relegation": [17, 18],
+      "playoff": [16]
+    }
+  },
+  {
+    "id": "serie-a",
+    "name": "Serie A",
+    "country": "Italy",
+    "slug": "serie-a",
+    "apiCode": "SA",
+    "bgColor": "bg-gradient-to-br from-[#008FD7] to-[#024494]",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Serie_A_ENILIVE_logo.svg/800px-Serie_A_ENILIVE_logo.svg.png",
+    "positions": {
+      "championsLeague": [1, 2, 3, 4],
+      "europaLeague": [5, 6],
+      "conferenceLeague": [7],
+      "relegation": [18, 19, 20]
+    }
+  },
+  {
+    "id": "ligue-1",
+    "name": "Ligue 1",
+    "country": "France",
+    "slug": "ligue-1",
+    "apiCode": "FL1",
+    "bgColor": "bg-gradient-to-br from-[#122F5A] to-[#295099]",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Ligue_1_2024.svg/285px-Ligue_1_2024.svg.png",
+    "positions": {
+      "championsLeague": [1, 2, 3],
+      "championsLeagueQualifier": [4],
+      "europaLeague": [5],
+      "conferenceLeague": [6],
+      "relegation": [17, 18],
+      "playoff": [16]
+    }
+  },
+  {
+    "id": "eredivisie",
+    "name": "Eredivisie",
+    "country": "Netherlands",
+    "slug": "eredivisie",
+    "apiCode": "DED",
+    "bgColor": "bg-gradient-to-br from-[#FF4F00] to-[#DA4200]",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Eredivisie_nieuw_logo_2017-.svg",
+    "positions": {
+      "championsLeague": [1, 2],
+      "championsLeagueQualifier": [3],
+      "europaLeague": [4],
+      "relegation": [18],
+      "playoff": [16, 17]
+    }
+  }
+]
