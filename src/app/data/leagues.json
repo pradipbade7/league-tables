@@ -51,7 +51,7 @@
     "slug": "serie-a",
     "apiCode": "SA",
     "bgColor": "bg-gradient-to-br from-[#008FD7] to-[#024494]",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Serie_A_ENILIVE_logo.svg/800px-Serie_A_ENILIVE_logo.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/1649px-Serie_A.svg.png",
     "positions": {
       "championsLeague": [1, 2, 3, 4],
       "europaLeague": [5, 6],
