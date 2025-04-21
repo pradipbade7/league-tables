@@ -28,11 +28,11 @@ const MAX_RETRY_COUNT = 3;
 
 export async function GET(
   request: Request,
-  context: { params: { league: string } }
+  { params }: { params: { league: string } }
 ) {
   try {
-    // Get the league slug from params
-    const { league: leagueSlug } = await context.params;
+    // Get the league slug from params - no need to await
+    const { league: leagueSlug } = await params;
     
     // Find the league data to get the API code
     const leagueData = leagues.find(league => league.slug === leagueSlug);
@@ -66,7 +66,7 @@ export async function GET(
   } catch (error: unknown) {
     console.error("Error fetching league data:", error);
     
-    const leagueSlug = context.params.league;
+    const leagueSlug = params.league;
     
     // If we have stale cache data, return it as fallback with a warning
     if (cache[leagueSlug]) {
