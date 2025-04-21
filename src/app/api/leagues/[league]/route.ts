@@ -1,4 +1,4 @@
-import { NextResponse, type RouteHandlerContext } from 'next/server';
+import { NextResponse } from 'next/server';
 import leagues from '../../../data/leagues.json';
 
 // Define proper interface for cache items
@@ -28,7 +28,7 @@ const MAX_RETRY_COUNT = 3;
 
 export async function GET(
   request: Request,
-  context: RouteHandlerContext<{ league: string }>
+  context: { params: { league: string } }
 ) {
   try {
     // Get the league slug from params
