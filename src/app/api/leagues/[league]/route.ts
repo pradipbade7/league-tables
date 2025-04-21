@@ -117,7 +117,20 @@ async function fetchLeagueData(apiCode: string, retryCount = 0): Promise<TeamDat
     const data = await response.json();
     
     // Transform API data to match your expected format
-    return data.standings[0].table.map((entry: Record<string, any>) => ({
+    interface Entry {
+      position: number;
+      team: { name: string };
+      playedGames: number;
+      won: number;
+      draw: number;
+      lost: number;
+      goalsFor: number;
+      goalsAgainst: number;
+      goalDifference: number;
+      points: number;
+    }
+
+    return data.standings[0].table.map((entry: Entry) => ({
       position: entry.position,
       team: entry.team.name,
       played: entry.playedGames,
