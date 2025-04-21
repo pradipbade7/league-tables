@@ -32,8 +32,7 @@ export async function GET(
 ) {
   try {
     // Get the league slug from params - no need to await
-    const { league: leagueSlug } = await params;
-    
+    const leagueSlug = params.league;    
     // Find the league data to get the API code
     const leagueData = leagues.find(league => league.slug === leagueSlug);
     
